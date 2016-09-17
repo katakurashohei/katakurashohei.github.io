@@ -1,10 +1,12 @@
 ---
 layout: page
-title: About
+title: Who are You ?
 permalink: /about/
 ---
 
-Some information about you!
+I'm Shohei Katakura, a student at Frontier Media Science , Meiji Univ.
+
+And I'm in [Keita Watanabe Labratory](http://keita-lab.jp/).
 
 ### More Information
 
@@ -12,4 +14,4 @@ A place to include any other types of information that you'd like to include abo
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[kafffcop@gmail.com](mailto:kaffcop@gmail.com)

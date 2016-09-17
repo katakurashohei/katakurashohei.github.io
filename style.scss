@@ -74,6 +74,7 @@ a {
 	cursor: pointer;
   &:hover, &:active {
     color: $blue;
+    text-decoration: underline;
   }
 }
 
@@ -165,8 +166,8 @@ img {
 
 .site-avatar {
   float: left;
-  width: 70px;
-  height: 70px;
+  width: 35px;
+  height: 35x;
   margin-right: 15px;
 
   @include mobile {
@@ -177,6 +178,7 @@ img {
 
   img {
     border-radius: 5px;
+    margin-top: 8px;
   }
 }
 
@@ -195,8 +197,9 @@ img {
   color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
+  //font-weight: 300;
+  font-weight: bold;
+  font-size: 20px;
   letter-spacing: 1px;
 }
 
@@ -214,6 +217,7 @@ nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
+  //font-size: 18px;
   font-size: 18px;
 
   @include mobile {
@@ -227,7 +231,7 @@ nav {
     margin-left: 20px;
     color: $darkGray;
     text-align: right;
-    font-weight: 300;
+    //font-weight: bold;
     letter-spacing: 1px;
 
     @include mobile {

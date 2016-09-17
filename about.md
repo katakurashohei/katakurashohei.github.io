@@ -1,16 +1,22 @@
 ---
 layout: page
-title: Who are You ?
+title:
 permalink: /about/
 ---
 
-I'm Shohei Katakura, a student at Frontier Media Science , Meiji Univ.
+### Who are You ?
+
+I'm **Shohei Katakura**, a student at Frontier Media Science , Meiji Univ.
 
 And I'm in [Keita Watanabe Labratory](http://keita-lab.jp/).
 
-### More Information
+### What are your interests ?
 
-A place to include any other types of information that you'd like to include about yourself.
+Human Computer Interaction, Interaction Design.
+
+### What did you create ?
+- [presendBox : Proposal and prototype of the box to increase the value of a message.](/presendbox)
+- [digitalAmbient : Digital sound that melts in the real world.](/degitalambient)
 
 ### Contact me
 

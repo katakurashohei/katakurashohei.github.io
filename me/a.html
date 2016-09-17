@@ -1,0 +1,72 @@
+<html>
+<head>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="hitarea">TOUCH ME</div>
+<div id="eventname">-</div>
+<div id="coords">X:<span id="x"></span> Y:<span id="y"></span></div>
+<p>17:34</p>
+<script src="webmo.js"></script>
+<script type="text/javascript">
+// 要素ら
+
+var el_hitarea = document.getElementById('hitarea');
+var el_eventname = document.getElementById('eventname');
+var el_x = document.getElementById('x');
+var el_y = document.getElementById('y');
+var el_z = document.getElementById('eventname');
+
+// 表示をアップデートする関数群
+
+var updateXY = function(event) {
+  el_x.innerHTML = event.changedTouches[0].pageX;
+  el_y.innerHTML = event.changedTouches[0].pageY;
+
+};
+
+var webmo_go = function(){
+  el_z.innerHTML = "webmo on!!";
+}
+var updateEventname = function(eventname) {
+  el_eventname.innerHTML = eventname;
+};
+
+// イベント設定
+
+el_hitarea.addEventListener('touchstart', function(event) {
+  updateEventname('touchstart');
+  updateXY(event);
+  el_hitarea.style.backgroundColor = 'red';
+}, false);
+
+el_hitarea.addEventListener('touchmove', function(event) {
+  event.preventDefault(); // タッチによる画面スクロールを止める
+  updateEventname('touchmove');
+  webmo_on(event);
+  updateXY(event);
+}, false);
+
+el_hitarea.addEventListener('touchend', function(event) {
+  updateEventname('touchend');
+  updateXY(event);
+  el_hitarea.style.backgroundColor = 'blue';
+}, false);
+
+function webmo_on(event){
+  var webmo = new Webmo.ws("192.168.100.39");
+    webmo_go();
+    webmo.onopen = function () {
+        webmo.rotate(parseInt(event.changedTouches[0].pageX));
+    }
+  }
+  function webmo_off(){
+    var webmo = new Webmo.ws("192.168.100.39");
+      webmo.onopen = function () {
+          webmo.stop();
+      }
+    }
+</script>
+</body>
+</html>

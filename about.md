@@ -1,8 +1,9 @@
 ---
 layout: page
-title: 
+title:
 permalink: /about/
 ---
+![](/images/kaffcop-150sq.jpg)
 
 ### Who are You ?
 
@@ -17,6 +18,9 @@ Human Computer Interaction, Interaction Design.
 ### What did you create ?
 - [presendBox : Proposal and prototype of the box to increase the value of a message.](/presendbox)
 - [digitalAmbient : Digital sound that melts in the real world.](/degitalambient)
+
+----
+
 
 ### Contact me
 

@@ -1,9 +1,12 @@
 ---
 layout: page
-title: Book Shelf
+title: Index
 permalink: /book/
 ---
+### idea
+- [Idea Books](/2)
 
-### Design
-- [You're up and running!](/1)
-- [Hello GitHub](/2)
+----
+
+### methodology
+- [みんなでするアイデア出し](/3)

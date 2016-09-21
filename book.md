@@ -10,3 +10,8 @@ permalink: /book/
 
 ### methodology
 - [みんなでするアイデア出し](/3)
+
+---
+
+### book review
+- [『アラン・ケイ (Ascii books)』](/alan-kay)

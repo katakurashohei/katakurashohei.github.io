@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html>
 <!-- Twitter Cards のプロパティのみを使用した場合のサンプル -->
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@kaffcop" />
-<meta name="twitter:creator" content="@kaffcop" />
-<meta name="twitter:title" content="Papers." />
-<meta name="twitter:description" content="Research and Expression." />
-<meta name="twitter:url" content="https://twitter.com/kaffcop" />
-<meta name="twitter:image" content="http://example.com/images/article/post01.png" />
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@kaffcop">
+<meta name="twitter:creator" content="@kaffcop">
+{% if page.title %}
+  <meta name="twitter:title" content="{{ page.title }}">
+{% else %}
+  <meta name="twitter:title" content="{{ site.title }}">
+{% endif %}
+{% if page.url %}
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+{% endif %}
+{% if page.description %}
+  <meta name="twitter:description" content="{{ page.description }}">
+{% else %}
+  <meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
+{% if page.image %}
+  <meta name="twitter:image:src" content="{{ site.url }}/path/to/image/{{ page.image }}">
+{% else %}
+  <meta name="twitter:image:src" content="{{ site.url }}/path/to/image/logo.png">
+{% endif %}
+
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 

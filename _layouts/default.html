@@ -5,7 +5,7 @@
 <meta name="twitter:site" content="@kaffcop">
 <meta name="twitter:creator" content="@kaffcop">
 {% if page.title %}
-  <meta name="twitter:title" content="{{ page.title }} - {{site.name}}">
+  <meta name="twitter:title" content="{{ page.title }}">
 {% else %}
   <meta name="twitter:title" content="{{ site.name }}">
 {% endif %}
@@ -15,12 +15,12 @@
 {% if page.description %}
   <meta name="twitter:description" content="{{ post.excerpt }}">
 {% else %}
-  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:description" content="{{site.name}} - {{ site.description }}">
 {% endif %}
 {% if page.image %}
   <meta name="twitter:image:src" content="{{ site.url }}/path/to/image/{{ page.image }}">
 {% else %}
-  <meta name="twitter:image:src" content="{{ site.url }}/path/to/image/logo.png">
+  <meta name="twitter:image:src" content="{{ site.url }}/images/23-8.jpg">
 {% endif %}
 
   <head>

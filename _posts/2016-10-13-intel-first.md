@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Intel Edisonの初め方のメモ
+description: Intel Edisonを初めたが、Raspberry Piと少し勝手が違って面倒なのでメモ。
 ---
 
 Intel Edisonを初めたが、Raspberry Piと少し勝手が違って面倒なのでメモ。

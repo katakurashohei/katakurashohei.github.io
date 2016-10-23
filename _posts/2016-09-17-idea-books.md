@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Idea Books
+description: I've been influenced by these artists. Their works are very cute and make me think.
 ---
 I've been influenced by these artists. Their works are very cute and make me think.
 

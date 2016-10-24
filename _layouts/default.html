@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <!-- Twitter Cards のプロパティのみを使用した場合のサンプル -->
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="photo">
 <meta name="twitter:site" content="@kaffcop">
 <meta name="twitter:creator" content="@kaffcop">
 {% if page.title %}
@@ -18,7 +18,7 @@
   <meta name="twitter:description" content="{{ site.description }}">
 {% endif %}
 {% if page.image %}
-  <meta name="twitter:image:src" content="{{ site.url }}/path/to/image/{{ page.image }}">
+  <meta name="twitter:image:src" content="{{ site.url }}/images/post_images/{{ page.image }}">
 {% else %}
   <meta name="twitter:image:src" content="{{ site.url }}/images/23-8.jpg">
 {% endif %}
@@ -72,5 +72,7 @@
     </div>
 
     {% include analytics.html %}
+ß
+
   </body>
 </html>

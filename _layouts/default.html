@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html>
-<!-- Twitter Cards のプロパティのみを使用した場合のサンプル -->
+<!-- Twitter Cards -->
 <meta name="twitter:card" content="photo">
 <meta name="twitter:site" content="@kaffcop">
 <meta name="twitter:creator" content="@kaffcop">
 {% if page.title %}
   <meta name="twitter:title" content="{{ page.title }} - {{site.name}}">
+  <meta property="og:title" content="{{ page.title }} - {{site.name}}" />
+  <meta property="og:type" content="article" />
 {% else %}
   <meta name="twitter:title" content="{{ site.name }}">
+  <meta property="og:title" content="{{site.name}}" />
+  <meta property="og:type" content="website" />
 {% endif %}
 {% if page.url %}
   <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 {% endif %}
 {% if page.description %}
   <meta name="twitter:description" content="{{ page.description  }}">
+  <meta property="og:description" content="{{ page.description  }}" />
 {% else %}
   <meta name="twitter:description" content="{{ site.description }}">
+  <meta property="og:description" content="{{ site.description  }}" />
 {% endif %}
 {% if page.image %}
   <meta name="twitter:image:src" content="{{ site.url }}/images/post_image/{{ page.image }}">
+  <meta property="og:image" content="{{ site.url }}/images/post_image/{{ page.image }}" />
 {% else %}
   <meta name="twitter:image:src" content="{{ site.url }}/images/23-8.jpg">
+  <meta property="og:image" content="{{ site.url }}/images/23-8.jpg" />
+
 {% endif %}
+<!-- Twitter Cards -->
 
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>

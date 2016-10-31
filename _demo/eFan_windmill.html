@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html></html>
+<head> </head>
+<link rel="stylesheet" href="css/app.css">
+<script src="lib/webmo.js"></script>
+<script src="js/eFan_windmill.js"></script>
+<body onload="init()">
+  <div id="wrapper">
+    <h1 id="device">Device motion</h1>
+    <h1 id="stock">stock</h1>
+    <h1 id="on">off
+      <h2>ACCELERATION</h2>
+      <p id="ac0" class="status">X:</p>
+      <p id="ac1" class="status">Y:</p>
+      <p id="ac2" class="status">Z:</p>
+      <!--h2 ACCELERATION INCLUDING GRAVITY-->
+      <!--p.status#ag0 X:-->
+      <!--p.status#ag1 Y:-->
+      <!--p.status#ag2 Z:-->
+      <!--h2 ROTATE TATE-->
+      <!--p.status#rt0 ALPHA:-->
+      <!--p.status#rt1 BETA:-->
+      <!--p.status#rt2 GAMMA:-->
+      <form class="clearfix mxn1">
+        <label for="rotate-speed-slider" class="left m1">スライダー</label>
+        <input id="rotate-speed-slider" type="range" min="-1080" max="1080" value="0" class="left m2">
+        <p class="left align-middle m1">0</p>
+      </form>
+      <input id="stop" type="submit" value="とめる" onClick="onButtonClickStop()">
+    </h1>
+  </div>
+</body>

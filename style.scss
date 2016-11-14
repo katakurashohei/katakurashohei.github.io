@@ -57,6 +57,10 @@ h1 {
   }
   a {
     color: inherit;
+    
+  }
+  a:hover{
+    color:$lightBlack;
   }
 }
 
@@ -96,6 +100,7 @@ a {
   &:hover, &:active {
     color: $blue;
     text-decoration: underline;
+    border-bottom:3px;
   }
 }
 
@@ -130,13 +135,16 @@ strong, b {
 
 img {
   max-width: 100%;
+      border-radius: 4px;
 }
 
 hr{
   border: 0;
     height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    //border-top: 1px solid rgba(0, 0, 0, 0.1);
+    //border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    //border-top: 2px solid $lightBlack;
+    border-bottom: 2px solid $lightBlack;
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -185,7 +193,7 @@ hr{
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 2px solid $lightBlack;
 
   @include mobile {
     text-align: center;
@@ -276,7 +284,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 1em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 2px solid $lightBlack;
 }
 
 .posts > .post:last-child {
@@ -309,14 +317,15 @@ nav {
 }
 
 .wrapper-footer {
+  //max-width: 740px;
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  //border-top: 1px solid #ddd;
+  //border-bottom: 1px solid #ddd;
+  //background-color: $lightGray;
 }
 
 footer {
-  padding: 20px 0;
+  padding: 10px 0;
   text-align: center;
 }
 

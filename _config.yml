@@ -84,9 +84,3 @@ exclude:
   - README.md
   - CNAME
 
-gems:
-  - jemoji
-  - jekyll-mentions
-  - jekyll-redirect-from
-  - jekyll-sitemap
-  - jekyll-feed

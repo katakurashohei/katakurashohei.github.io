@@ -1,9 +1,8 @@
 ---
 layout: page
-title:
+title: about
 permalink: /about/
 ---
-# About
 
 ![](/images/kaffcop-150sq.jpg)
 

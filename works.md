@@ -4,4 +4,6 @@ title: works
 permalink: /works/
 ---
 
-- [presendBox](/presendBox)
+
+
+![](../images/work_image/presend-box-main.jpg)

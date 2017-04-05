@@ -5,7 +5,7 @@ description: メッセージの価値を高める箱の提案とその試作
 ---
 メッセージの価値を高める箱の提案とその試作
 
-![](http://keita-lab.jp/images/projects/presend-box/presend-box-main.jpg)
+![](../images/post_image/presend-box-main.jpg)
 
 現在のメッセージングは、素早く便利になってきています。しかしその一方、手紙時などのような温かさは感じられなくなってきていると感じます。
 

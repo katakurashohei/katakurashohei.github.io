@@ -416,4 +416,7 @@ figcaption {
 
 figure:hover figcaption {
 	background: rgba(0,0,0,.1);
+    @include mobile {
+        background: rgba(0,0,0,.2);
+    }
 }

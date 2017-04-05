@@ -2,22 +2,24 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      <!--<h1>{{ post.title }}</h1>-->
+<a href="../ExUI">
+<figure>
+<img src="../images/work_image/exui-fun.jpg" >
+<figcaption>
+<h5> ExUI</h5>
+<h6>操作インターフェイスとハードウェアを分離してデバイスを製作する設計手法</h6>
+</figcaption>
+</figure>
+</a>
 
-      {% if post.image %}
-        <img src="{{ site.url }}/images/post_image/{{ post.image }}" />
-      {% endif %}
+<br>
 
-      <div class="entry">
-        <p>{{ post.description }}</p>
-        <!--{ post.excerpt }}-->
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more"><b>Read More</b></a>
-    </article>
-  {% endfor %}
-</div>
+<a href="../presendBox">
+<figure >
+<img src="../images/work_image/presend-box-main.jpg" >
+<figcaption>
+<h5>presendBox</h5>
+<h6>メッセージの価値を高める箱の提案とその試作</h6>
+</figcaption>
+</figure>
+</a>

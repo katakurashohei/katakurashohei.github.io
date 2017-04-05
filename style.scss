@@ -188,7 +188,7 @@ hr{
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .masthead {
@@ -339,3 +339,81 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+
+
+
+//img class
+
+figure {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+    border-radius: 4px;
+
+
+
+    img{
+        margin:0px;
+        margin-bottom: -7px;
+    }
+    h5{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translateY(-50%) translateX(-50%);
+
+        text-align: center;
+
+        font-size: 30px;
+        color:#fff;
+         @include mobile {
+             position: absolute;
+             top: 50%;
+             left: 50%;
+             -webkit-transform: translateY(-50%) translateX(-50%);
+
+             text-align: center;
+
+             font-size: 20px;
+         }
+    }
+    h6{
+        position: absolute;
+top: 60%;
+left: 50%;
+-webkit-transform: translateY(-60%) translateX(-50%);
+        font-size: 12px;
+        text-align: center;
+        color:#fff;
+        font-weight: normal;
+        width:90%;
+        @include mobile {
+            position: absolute;
+    top: 65%;
+    left: 50%;
+    -webkit-transform: translateY(-65%) translateX(-50%);
+            font-size: 10px;
+            text-align: center;
+            color:#fff;
+            font-weight: normal;
+        }
+    }
+}
+figcaption {
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.2);
+	-webkit-transition: .3s;
+	transition: .3s;
+	opacity: 1;
+}
+
+figure:hover figcaption {
+	background: rgba(0,0,0,.1);
+}

@@ -2,6 +2,7 @@
 layout: post
 title: presendBox
 description: メッセージの価値を高める箱の提案とその試作
+image: presend-box-main.jpg
 ---
 メッセージの価値を高める箱の提案とその試作
 

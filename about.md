@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title:
 permalink: /about/
 ---
 
@@ -19,12 +19,6 @@ And I'm in [Keita Watanabe Labratory](http://keita-lab.jp/).
 ## What are your interests ?
 
 Interface Design, Human Computer Interaction, Interaction Design.
-
----
-
-## My Works
-- [presendBox : メッセージの価値を高める箱の提案とその試作](/presendBox)
-- [digitalAmbient : Digital sound that melts in the real world.](/degitalambient)
 
 ----
 

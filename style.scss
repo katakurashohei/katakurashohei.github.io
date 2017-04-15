@@ -230,6 +230,7 @@ hr{
 }
 
 .site-name {
+
   margin: 0;
   color: $darkGray;
   cursor: pointer;
@@ -252,7 +253,7 @@ hr{
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 33px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   //font-size: 18px;
   font-size: 18px;
@@ -418,5 +419,16 @@ figure:hover figcaption {
 	background: rgba(0,0,0,.1);
     @include mobile {
         background: rgba(0,0,0,.2);
+    }
+}
+
+ul.menu-icons{
+        margin-top: 10px;
+    margin-bottom: 0px;
+    padding:0px;
+    li{
+        padding-right: 10px;
+        display: inline-block;
+
     }
 }

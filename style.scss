@@ -430,5 +430,15 @@ ul.menu-icons{
         padding-right: 10px;
         display: inline-block;
 
+        }
+    @include mobile {
+        li{
+            padding-right: 0px;
+        padding-left: 10px;
+        display: inline-block;
+            }
+    }
+    a:hover{
+        fill:#F99B15;
     }
 }

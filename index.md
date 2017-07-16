@@ -4,9 +4,8 @@ layout: default
 
 ![](/images/icon-rect.png){: .icon}
 
-### Shohei Katakura | 片 倉  翔 平
-I'm an interaction designer and Human Computer Interaction (HCI) researcher. I'm a Masters student at Graduate School of Advanced Mathematical Sciences, Meiji university.
-
+### About Me
+I'm an interaction designer and Human Computer Interaction (HCI) researcher. I'm a Masters student at Graduate School of Advanced Mathematical Sciences, Meiji university.<br>
 And I'm at [Keita Watanabe Lab](http://keita-lab.jp/).
 
 

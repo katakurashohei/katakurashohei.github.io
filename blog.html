@@ -6,10 +6,11 @@ permalink: /blog/
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+     <!-- <h3 class="blog-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3> -->
+      <h3 class="blog-title">{{ post.title }}</h3>
       <!--<h1>{{ post.title }}</h1>-->
       {% if post.image %}
-      <img src="{{ site.url }}/images/post_image/{{ post.image }}" />
+      <!-- <img src="{{ site.url }}/images/post_image/{{ post.image }}" /> -->
       {% endif %}
 
 

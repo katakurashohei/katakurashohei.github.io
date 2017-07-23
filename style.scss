@@ -459,6 +459,10 @@ ul.menu-icons{
   img {
     max-width: 30%;
     float: left;
+    &:hover{
+        opacity: 0.8;
+        transition: .2s;
+    }
   }
 
 

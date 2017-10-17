@@ -2,10 +2,10 @@
 layout: default
 ---
 
-![](/images/icon-rect.png){: .icon}
+![](/images/iconicon.png){: .icon}
 
 ### About Me
-I'm an interaction designer and Human Computer Interaction (HCI) researcher. I'm a Masters student at Graduate School of Advanced Mathematical Sciences, Meiji university.<br>
+I'm an interaction designer and Human Computer Interaction (HCI) research student at Graduate School of Advanced Mathematical Sciences, Meiji university.<br>
 And I'm at [Keita Watanabe Lab](http://keita-lab.jp/).
 
 

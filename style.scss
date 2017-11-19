@@ -342,6 +342,18 @@ footer {
 @import "highlights";
 @import "svg-icons";
 
+.svg-icon{
+  width:20px;
+  height: 20px;
+}
+
+.svg-icon:hover{ 
+  
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  -moz-opacity:0.6;
+  transition: 0.05s linear;
+  }
 
 
 

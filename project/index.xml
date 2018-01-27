@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Shohei Katakura | 片倉 翔平</title>
-    <link>http://katakurashohei.githu.io/project/</link>
+    <link>http://katakurashohei.me/project/</link>
     <description>Recent content in Projects on Shohei Katakura | 片倉 翔平</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>ProtoHole</title>
-      <link>http://katakurashohei.githu.io/project/protohole/</link>
+      <link>http://katakurashohei.me/project/protohole/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://katakurashohei.githu.io/project/protohole/</guid>
+      <guid>http://katakurashohei.me/project/protohole/</guid>
       <description>
 
 &lt;h3 id=&#34;abstruct&#34;&gt;Abstruct&lt;/h3&gt;
@@ -28,10 +28,10 @@
     
     <item>
       <title>ExUI</title>
-      <link>http://katakurashohei.githu.io/project/exui/</link>
+      <link>http://katakurashohei.me/project/exui/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://katakurashohei.githu.io/project/exui/</guid>
+      <guid>http://katakurashohei.me/project/exui/</guid>
       <description>&lt;p&gt;現在のメッセージングは、素早く便利になってきています。しかしその一方、手紙時などのような温かさは感じられなくなってきていると感じます。&lt;/p&gt;
 
 &lt;p&gt;「presendBox」は画面の中にディスプレイを閉じ込め、その中にメッセージを送信し、開けることによってメッセージを受け取りる箱です。&lt;/p&gt;
@@ -42,10 +42,10 @@
     
     <item>
       <title>presendBox</title>
-      <link>http://katakurashohei.githu.io/project/presendbox/</link>
+      <link>http://katakurashohei.me/project/presendbox/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://katakurashohei.githu.io/project/presendbox/</guid>
+      <guid>http://katakurashohei.me/project/presendbox/</guid>
       <description>&lt;p&gt;現在のメッセージングは、素早く便利になってきています。しかしその一方、手紙時などのような温かさは感じられなくなってきていると感じます。&lt;/p&gt;
 
 &lt;p&gt;「presendBox」は画面の中にディスプレイを閉じ込め、その中にメッセージを送信し、開けることによってメッセージを受け取りる箱です。&lt;/p&gt;

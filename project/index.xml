@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Shohei Katakura | 片倉 翔平</title>
+    <link>http://katakurashohei.githu.io/project/</link>
+    <description>Recent content in Projects on Shohei Katakura | 片倉 翔平</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/project/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ProtoHole</title>
+      <link>http://katakurashohei.githu.io/project/protohole/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://katakurashohei.githu.io/project/protohole/</guid>
+      <description>
+
+&lt;h3 id=&#34;abstruct&#34;&gt;Abstruct&lt;/h3&gt;
+
+&lt;p&gt;A prototype process of a physical user interface includes not only connection of electronic parts and an enclosure design, but also the arrangement and configuration of the electronic parts in the enclosure. This process is complicated and difficult for people who do not have modeling skills. We propose ProtoHole, a technique for adding interactivity to 3D printed objects by creating holes in the surface. By emitting a high-frequency sweep signal inside the object, and classifying changes in resonance properties when closing holes using machine learning algorithms, an object can be easily made interactive. By designing an arrangement of holes on the surface of the object and using a swept-frequency acoustic sensing, it is possible to create prototype of interactive objects and physical user interfaces without considering an arrangement of internal electronic parts and wiring. In this paper, we propose an interaction method and its applications.&lt;/p&gt;
+
+&lt;p&gt;本研究では，３Dプリントするオブジェクトの表面に穴をあけることによってオブジェクトをインタラクティブにする手法 ProtoHoleを提案する．物理的なユーザーインターフェイスのプロトタイプ製作の需要が高まっている．しかし，そのプロセスには，電子部品同士の接続と筐体デザインだけでなく，筐体への電子部品の配置，構成の設計も含まれる．この設計は，モデリングの技術やノウハウのない者には複雑で難しい．ProtoHoleは，3Dプリントするオブジェクトの表面に穴を開けることで，複雑な形状のオブジェクトをインタラクティブにする．穴の塞ぎ方をデザインし，スイープ信号を用いたアクティブ音響センシングを利用することで， 電子工作のいらないインタラクティブなオブジェクトの製作が可能になる．本稿では，提案手法によって実現可能なインタラクションを提示し，その作例を挙げ，考察する．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ExUI</title>
+      <link>http://katakurashohei.githu.io/project/exui/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://katakurashohei.githu.io/project/exui/</guid>
+      <description>&lt;p&gt;現在のメッセージングは、素早く便利になってきています。しかしその一方、手紙時などのような温かさは感じられなくなってきていると感じます。&lt;/p&gt;
+
+&lt;p&gt;「presendBox」は画面の中にディスプレイを閉じ込め、その中にメッセージを送信し、開けることによってメッセージを受け取りる箱です。&lt;/p&gt;
+
+&lt;p&gt;スマホなどではメッセージは、常に画面に表示されているわけではなく、アプリを終了した時やロックをかけたとき、突然消えるため手紙のような保持感を感じることはできません。しかし箱のなかに閉じ込めることによって、開けた時に徐々にあらわれることによって”すでにそこにあった”という持続を感じさせることができます。それによってメッセージの価値を高まると考えます。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>presendBox</title>
+      <link>http://katakurashohei.githu.io/project/presendbox/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://katakurashohei.githu.io/project/presendbox/</guid>
+      <description>&lt;p&gt;現在のメッセージングは、素早く便利になってきています。しかしその一方、手紙時などのような温かさは感じられなくなってきていると感じます。&lt;/p&gt;
+
+&lt;p&gt;「presendBox」は画面の中にディスプレイを閉じ込め、その中にメッセージを送信し、開けることによってメッセージを受け取りる箱です。&lt;/p&gt;
+
+&lt;p&gt;スマホなどではメッセージは、常に画面に表示されているわけではなく、アプリを終了した時やロックをかけたとき、突然消えるため手紙のような保持感を感じることはできません。しかし箱のなかに閉じ込めることによって、開けた時に徐々にあらわれることによって”すでにそこにあった”という持続を感じさせることができます。それによってメッセージの価値を高まると考えます。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,297 @@
+body{
+    
+    font-size: 14px;
+    font-family: "Lato", "游ゴシック", "Yu Gothic", YuGothic, Helvetica, Arial, sans-serif;
+}
+p{
+    color:#000;
+}
+a{
+    color:#0366d6;
+}
+a:hover{
+    color:#0366d6;
+}
+
+ul, ol, dl {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color:#000;
+    font-family: "Lato", "游ゴシック", "Yu Gothic", YuGothic, Helvetica, Arial, sans-serif;
+}
+h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.home-h4{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
+.navbar-default{
+    font-family:"Lato","游ゴシック", "Yu Gothic", YuGothic,Helvetica, Arial, sans-serif;
+    font-weight: bold;
+  
+    /* height:100px; */
+    /* border-bottom: none; */
+    border-bottom-color: white;
+    box-shadow: none;
+    color:#999999;
+}
+
+.navbar-default .navbar-brand{
+text-transform:none;
+/* font-size: 1.0rem; */
+color: #000;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover{
+    color:#F53E19;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color:#000;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover{
+    color:#F53E19;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000 !important;
+}
+
+
+#profile .portrait {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 0%;
+    background-size: cover;
+}
+#profile{
+    padding: 0px;
+}
+
+
+.big-icon {
+    color:#252525;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.email p{
+    margin: 10px 0px 0px 0px;
+}
+#profile ul.network-icon {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin-top: 0px;
+}
+
+
+@media (min-width: 1200px){
+.container {
+    max-width: 800px;
+
+}
+
+}
+
+@media (min-width: 800px){
+.container {
+    max-width: 800px;
+}
+}
+@media (max-width: 800px){
+.container {
+    width: atuo;
+}
+}
+#about .container{
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+
+
+.home-section{
+    padding: 1.5rem 0px;
+    background: white;
+}
+.home-section:nth-of-type(even) {
+    background-color: white;
+}
+
+/*************************************************
+ *  Card component
+ **************************************************/
+
+ .card {
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #fff;
+    box-shadow: none;
+    transition: none;
+    /* border:solid 1px #cccccc ; */
+    /* border-radius: 2px; */
+    height: 150px;
+  }
+  
+  .card .card-image {
+    padding-right: 20px;
+    float: left;
+    height: 150px; 
+    max-width:40%;
+  }
+
+  .card-image img{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+  }
+  
+
+
+  
+  .card h4 {
+    margin-top: 0px;
+    font-size: 1.0em;
+    font-weight: 700;
+    line-height: 1.5;
+    text-transform: none;
+  }
+  
+  .card h4 a {
+    color: #000;
+    border-bottom: solid 1px transparent;
+  }
+  
+  .card h4 a:hover {
+    color: #000;
+    border-bottom: solid 1px #000;
+    text-decoration: none;
+  }
+  
+  .card .card-text {
+    padding: 0px;
+  }
+  
+  .card .card-text p {
+    color: #999999;
+    font-size: 0.75rem;
+  }
+  
+  .card p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .card .card-image.hover-overlay:before {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    content: " ";
+    opacity: 0;
+    transition: all 0.1s ease-out;
+  }
+  
+  .card .card-image.hover-overlay:after {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    transform: translate(0, -50%);
+    opacity: 0;
+    transition: all 0.1s ease-out;
+    font-family: 'FontAwesome';
+    content: '';
+    text-align: center;
+    font-size: 3rem;
+    color: #666;
+  }
+  
+  .card:hover {
+    box-shadow: none;
+  }
+  
+  .card:hover .card-image.hover-overlay:before {
+    opacity: 0.0;
+  }
+  
+  .card:hover .card-image.hover-overlay:after {
+    opacity: 0.0;
+  }
+
+
+  ::selection {
+    background: #0090DF;
+    color: #fff;
+}
+::-moz-selection {
+    background: #0090DF;
+    color: #fff;
+}
+
+/* articl */
+.article-banner {
+    width: 770px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+
+@media (min-width: 1200px){
+    .article-banner {
+        max-width: 770px;
+    
+    }
+}
+    
+@media (min-width: 770px){
+    .article-banner  {
+        max-width: 770px;
+}
+@media (max-width: 770px){
+    .article-banner  {
+        width: atuo;
+    }
+}
+
+.article-container{
+    max-width:800px;
+}
+
+.universal-wrapper {
+    width: 800px;
+}
+
+.article-title{
+    font-size: 1.2em;
+}
+
+.article-title a {
+    color: #151515;
+    transition: color 0.0s ease;
+}
+
+a, h4.article-title a:hover {
+    color: #0095eb;
+    text-decoration: none;
+    transition: color 0.0s ease;
+}

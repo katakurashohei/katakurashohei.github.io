@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Shohei Katakura | 片倉 翔平</title>
-    <link>http://katakurashohei.me/publication/</link>
+    <link>http://katakurashohei.github.io/publication/</link>
     <description>Recent content in Publications on Shohei Katakura | 片倉 翔平</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,19 +12,19 @@
     
     <item>
       <title>ProtoHole: 穴と音響センシングを用いたインタラクティブな３Dプリントオブジェクトの提案</title>
-      <link>http://katakurashohei.me/publication/protohole/</link>
+      <link>http://katakurashohei.github.io/publication/protohole/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://katakurashohei.me/publication/protohole/</guid>
+      <guid>http://katakurashohei.github.io/publication/protohole/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mobile visual clothing search</title>
-      <link>http://katakurashohei.me/publication/clothing-search/</link>
+      <link>http://katakurashohei.github.io/publication/clothing-search/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://katakurashohei.me/publication/clothing-search/</guid>
+      <guid>http://katakurashohei.github.io/publication/clothing-search/</guid>
       <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>

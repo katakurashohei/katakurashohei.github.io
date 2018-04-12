@@ -16,11 +16,7 @@
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>http://katakurashohei.me/project/protohole/</guid>
-      <description>
-
-&lt;h3 id=&#34;abstruct&#34;&gt;Abstruct&lt;/h3&gt;
-
-&lt;p&gt;A prototype process of a physical user interface includes not only connection of electronic parts and an enclosure design, but also the arrangement and configuration of the electronic parts in the enclosure. This process is complicated and difficult for people who do not have modeling skills. We propose ProtoHole, a technique for adding interactivity to 3D printed objects by creating holes in the surface. By emitting a high-frequency sweep signal inside the object, and classifying changes in resonance properties when closing holes using machine learning algorithms, an object can be easily made interactive. By designing an arrangement of holes on the surface of the object and using a swept-frequency acoustic sensing, it is possible to create prototype of interactive objects and physical user interfaces without considering an arrangement of internal electronic parts and wiring. In this paper, we propose an interaction method and its applications.&lt;/p&gt;
+      <description>&lt;p&gt;A prototype process of a physical user interface includes not only connection of electronic parts and an enclosure design, but also the arrangement and configuration of the electronic parts in the enclosure. This process is complicated and difficult for people who do not have modeling skills. We propose ProtoHole, a technique for adding interactivity to 3D printed objects by creating holes in the surface. By emitting a high-frequency sweep signal inside the object, and classifying changes in resonance properties when closing holes using machine learning algorithms, an object can be easily made interactive. By designing an arrangement of holes on the surface of the object and using a swept-frequency acoustic sensing, it is possible to create prototype of interactive objects and physical user interfaces without considering an arrangement of internal electronic parts and wiring.&lt;/p&gt;
 </description>
     </item>
     
@@ -116,17 +112,12 @@
     </item>
     
     <item>
-      <title>ExUI</title>
+      <title>exUI Project</title>
       <link>http://katakurashohei.me/project/exui/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>http://katakurashohei.me/project/exui/</guid>
-      <description>&lt;p&gt;現在のメッセージングは、素早く便利になってきています。しかしその一方、手紙時などのような温かさは感じられなくなってきていると感じます。&lt;/p&gt;
-
-&lt;p&gt;「presendBox」は画面の中にディスプレイを閉じ込め、その中にメッセージを送信し、開けることによってメッセージを受け取りる箱です。&lt;/p&gt;
-
-&lt;p&gt;スマホなどではメッセージは、常に画面に表示されているわけではなく、アプリを終了した時やロックをかけたとき、突然消えるため手紙のような保持感を感じることはできません。しかし箱のなかに閉じ込めることによって、開けた時に徐々にあらわれることによって”すでにそこにあった”という持続を感じさせることができます。それによってメッセージの価値を高まると考えます。&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -139,7 +130,7 @@
 
 &lt;p&gt;「presendBox」は画面の中にディスプレイを閉じ込め、その中にメッセージを送信し、開けることによってメッセージを受け取りる箱です。&lt;/p&gt;
 
-&lt;p&gt;スマホなどではメッセージは、常に画面に表示されているわけではなく、アプリを終了した時やロックをかけたとき、突然消えるため手紙のような保持感を感じることはできません。しかし箱のなかに閉じ込めることによって、開けた時に徐々にあらわれることによって”すでにそこにあった”という持続を感じさせることができます。それによってメッセージの価値を高まると考えます。&lt;/p&gt;
+&lt;p&gt;スマホなどではメッセージは、常に画面に表示されているわけではなく、アプリを終了した時やロックをかけたとき、突然消えるため手紙のような保持感を感じることはできません。しかし箱のなかに閉じ込めることによって、”すでにそこにあった”という持続を感じさせることができます。それによってメッセージの価値を高まると考えます。&lt;/p&gt;
 </description>
     </item>
     

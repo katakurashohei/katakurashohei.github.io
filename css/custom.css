@@ -15,7 +15,8 @@ p{
     color:#000;
 }
 a{
-    color:#0366d6;
+    color:#888;
+    
 }
 a:hover{
     color:#0366d6;
@@ -316,7 +317,7 @@ color: #000;
 }
 
 a, h4.article-title a:hover {
-    color: #0095eb;
+    color: #888;
     text-decoration: none;
     transition: color 0.0s ease;
 }

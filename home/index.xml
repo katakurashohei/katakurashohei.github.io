@@ -8,7 +8,101 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://katakurashohei.me/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://katakurashohei.me/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://katakurashohei.me/home/about/</guid>
+      <description>I&amp;rsquo;m a 2nd year of a Master&amp;rsquo;s student in the Graduate School of Advanced Mathematical Sciences, Meiji University, advised by Prof. Keita Watanabe.
+My research interest is human-computer interaction (HCI), especially personal fabrication. I design a relationship and interaction with fabrication machines by creating software and hardware systems. My research goal is to enable non-experts to create interactable and movable physical objects with 3D printing technologies.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://katakurashohei.me/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://katakurashohei.me/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>http://katakurashohei.me/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0900</pubDate>
+      
+      <guid>http://katakurashohei.me/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>http://katakurashohei.me/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0900</pubDate>
+      
+      <guid>http://katakurashohei.me/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>http://katakurashohei.me/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://katakurashohei.me/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Custom Section</title>
+      <link>http://katakurashohei.me/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://katakurashohei.me/home/teaching/</guid>
+      <description>This is an example of using the custom widget to create your own homepage section.
+To remove this section, either delete content/home/teaching.md or edit the frontmatter of the file to deactivate the widget by setting active = false.</description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>http://katakurashohei.me/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0900</pubDate>
+      
+      <guid>http://katakurashohei.me/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exhibition</title>
+      <link>http://katakurashohei.me/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://katakurashohei.me/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>http://katakurashohei.me/home/publications_list/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://katakurashohei.me/home/publications_list/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exhibition</title>
+      <link>http://katakurashohei.me/home/exhibition/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://katakurashohei.me/home/exhibition/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

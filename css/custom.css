@@ -1,15 +1,8 @@
-@font-face {
-	font-family: 'koushiki';
-	src: url('../font/KoushikiSans-Light.ttf');
-}
-@font-face {
-	font-family: 'koushiki-bold';
-	src: url('../font/KoushikiSans-Regular.ttf');
-}
+
 body{
     
     font-size: 14px;
-    font-family: "koushiki", "游ゴシック", "Yu Gothic", YuGothic, Helvetica, Arial, sans-serif;
+    font-family: "Roboto", "游ゴシック", "Yu Gothic", YuGothic, Helvetica, Arial, sans-serif;
 }
 p{
     color:#000;
@@ -30,7 +23,7 @@ ul, ol, dl {
 
 h1, h2, h3, h4, h5, h6 {
     color:#000;
-    font-family: "koushiki-bold", "游ゴシック", "Yu Gothic", YuGothic, Helvetica, Arial, sans-serif;
+    font-family: "Roboto", "游ゴシック", "Yu Gothic", YuGothic, Helvetica, Arial, sans-serif;
 }
 h1{
     font-size: 1.5rem;
@@ -43,7 +36,7 @@ h1{
 }
 
 .navbar-default{
-    font-family:"koushiki-bold","游ゴシック", "Yu Gothic", YuGothic,Helvetica, Arial, sans-serif;
+    font-family:"Roboto","游ゴシック", "Yu Gothic", YuGothic,Helvetica, Arial, sans-serif;
     font-weight: bold;
   
     /* height:100px; */

@@ -11,6 +11,26 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>PrintMotion</title>
+      <link>http://katakurashohei.me/project/printmotion/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://katakurashohei.me/project/printmotion/</guid>
+      <description>
+
+&lt;p&gt;We introduce a novel use for desktop 3D printers using actua- tors equipped in the printers. The actuators control an extruder and a build-plate mounted on a fused deposition modeling (FDM) 3D printer, moving them horizontally or vertically. Our technique enables actuation of 3D-printed objects on the build-plate by controlling the actuators, and people can inter- act with them by connecting interface devices to the 3D printer. In this work, we describe how to actuate printed objects using the actuators and present several objects illustrated by our technique.&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://youtu.be/bK5AOpHN1pc&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; align=&#34;center&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h5 id=&#34;publications&#34;&gt;Publications&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Shohei Katakura and Keita Watanabe. 2018. PrintMotion: Actuating Printed Objects Using Actuators Equipped in a 3D Printer. In The 31st Annual ACM Symposium on User Interface Software and Technology Adjunct Proceedings (UIST &amp;lsquo;18 Adjunct). ACM, New York, NY, USA, 137-139. DOI: &lt;a href=&#34;https://doi.org/10.1145/3266037.3271627&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1145/3266037.3271627&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>ProtoHole</title>
       <link>http://katakurashohei.me/project/protohole/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>

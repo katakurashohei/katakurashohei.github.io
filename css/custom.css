@@ -1,8 +1,11 @@
-
+@import url("https://use.typekit.net/huh0wed.css");
 body{
     
     font-size: 14px;
-    font-family: "Roboto", "游ゴシック", "Yu Gothic", YuGothic, Helvetica, Arial, sans-serif;
+    /* font-family: "Roboto", "游ゴシック", "Yu Gothic", YuGothic, Helvetica, Arial, sans-serif; */
+    font-family: linotype-sabon, a-otf-ryumin-pr6n, sans-serif,serif;
+    font-style: normal;
+    font-weight: 400;
 }
 p{
     color:#000;
@@ -12,7 +15,7 @@ a{
     
 }
 a:hover{
-    color:#0366d6;
+    color:#CE1B14;
 }
 
 ul, ol, dl {
@@ -23,21 +26,25 @@ ul, ol, dl {
 
 h1, h2, h3, h4, h5, h6 {
     color:#000;
-    font-family: "Roboto", "游ゴシック", "Yu Gothic", YuGothic, Helvetica, Arial, sans-serif;
+    /* //font-family: a-otf-futo-go-b101-pr6n, sans-serif; */
+    font-style: normal;
+    font-family:  "游ゴシック", "Yu Gothic", YuGothic, Helvetica, Arial, sans-serif;
+    font-weight: 500;
 }
 h1{
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 500;
 }
 .home-h4{
     margin-top: 0px;
     margin-bottom: 30px;
+    font-weight: 700;
     font-size: 1.2em;
 }
 
 .navbar-default{
-    font-family:"Roboto","游ゴシック", "Yu Gothic", YuGothic,Helvetica, Arial, sans-serif;
-    font-weight: bold;
+    font-family:"游ゴシック", "Yu Gothic", YuGothic,Helvetica, Arial, sans-serif;
+    font-weight: normal; 
   
     /* height:100px; */
     /* border-bottom: none; */
@@ -55,7 +62,7 @@ color: #000;
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover{
-    color:#F53E19;
+    color:#CE1B14;
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -64,7 +71,7 @@ color: #000;
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover{
-    color:#F53E19;
+    color:#CE1B14;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -187,7 +194,7 @@ color: #000;
   .card h4 {
     margin-top: 0px;
     font-size: 1.0em;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.5;
     text-transform: none;
   }
@@ -259,12 +266,12 @@ color: #000;
 
 
   ::selection {
-    background: #0090DF;
-    color: #fff;
+    background: #f6f6f6;
+    color: #000;
 }
 ::-moz-selection {
-    background: #0090DF;
-    color: #fff;
+    background: #f6f6f6;
+    color: #000;
 }
 
 /* articl */

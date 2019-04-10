@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>http://katakurashohei.me/post/idea/</loc>
+      <lastmod>2019-04-10T00:00:00+09:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://katakurashohei.me/project/printmotion/</loc>
       <lastmod>2018-10-25T00:00:00+00:00</lastmod>
     </url>
@@ -123,16 +132,6 @@
     
     <url>
     
-      <loc>http://katakurashohei.me/tags/</loc>
-      <lastmod>2018-01-13T00:00:00+09:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://katakurashohei.me/publication_types/3/</loc>
       <lastmod>2013-07-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -164,6 +163,16 @@
     
       <loc>http://katakurashohei.me/tags/</loc>
       <lastmod>2018-01-13T00:00:00+09:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://katakurashohei.me/tags/idea/</loc>
+      <lastmod>2019-04-10T00:00:00+09:00</lastmod>
       <priority>0</priority>
     </url>
     

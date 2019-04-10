@@ -2,8 +2,8 @@
 body{
     
     font-size: 14px;
-    /* font-family: "Roboto", "游ゴシック", "Yu Gothic", YuGothic, Helvetica, Arial, sans-serif; */
-    font-family: linotype-sabon, a-otf-ryumin-pr6n, sans-serif,serif;
+    font-family: "Roboto", "游ゴシック", "Yu Gothic", YuGothic, Helvetica, Arial, sans-serif;
+    /* font-family: linotype-sabon, a-otf-ryumin-pr6n, sans-serif,serif; */
     font-style: normal;
     font-weight: 400;
 }
@@ -312,12 +312,13 @@ color: #000;
 }
 
 .article-title a {
-    color: #151515;
+    color: #0366d6;
+    text-decoration: none;
     transition: color 0.0s ease;
 }
 
-a, h4.article-title a:hover {
-    color: #888;
-    text-decoration: none;
+.article-title a:hover {
+    color: #0366d6;
+    text-decoration: underline;
     transition: color 0.0s ease;
 }

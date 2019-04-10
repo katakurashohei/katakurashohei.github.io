@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 片倉 翔平 | Shohei Katakura</title>
-    <link>http://katakurashohei.me/post/</link>
-    <description>Recent content in Posts on 片倉 翔平 | Shohei Katakura</description>
+    <title>idea on 片倉 翔平 | Shohei Katakura</title>
+    <link>http://katakurashohei.me/tags/idea/</link>
+    <description>Recent content in idea on 片倉 翔平 | Shohei Katakura</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 10 Apr 2019 00:00:00 +0900</lastBuildDate>
     
-	<atom:link href="http://katakurashohei.me/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://katakurashohei.me/tags/idea/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -40,25 +40,6 @@
 こういう批判をするのであれば、例えば今の展示風景にある色を考えてこの色のほうがいいのではないかと、展示するという目的 を考えて批評するべきである。プロのデザイナーであれば当然の話かもしれないが、デザインを学び始めた学生にとってはわかっていても意識しにくいところである、と自分自身感じている。
 まとめ 自分のデザイン感があることは重要だと思っているのだけど、他人のためにはそこは抑えなければならないと感じている。またいいデザインを創る能力と、いいデザインのために批評する能力は別のものな気がする。両方鍛えていかないと社会に出たときつらそうだ。
 また良い批評をすると作るものがよくなるというのを少し実感している。議論を深めたり、制作物をよくするために、常に そのデザインの目的は何か を共有することに研究室では徹していきたい。</description>
-    </item>
-    
-    <item>
-      <title>みんなでするアイデア出し</title>
-      <link>http://katakurashohei.me/post/ideation/</link>
-      <pubDate>Sun, 18 Sep 2016 00:00:00 +0900</pubDate>
-      
-      <guid>http://katakurashohei.me/post/ideation/</guid>
-      <description>研究室では、ソファーに座ってアイデア出しをするということが日常になってきた気がする。特に「〜で困っていて、なんかアイデアないかな？」というある一人のアイデアの行き詰まりに対して行うことが増えている。
-しかし、いくつかアイデア出しする上で注意しないといけないことがあるなと感じている。
-問題は何であるかをちゃんと理解する 話は広がって面白いネタは多く出るのだけど、結局困っていた問題を解決するアイデアは出ていなかっりする。
-発散してしまうような議論をすることも悪いのだけど、こういうときは相談する側が問題をちゃんと理解していない、定義できていないということが多いのかなと感じる。
-これは指導教員に相談するというときもそうだけど、相談側が何が問題であるかを定義できていないと解決の糸口になるようなアイデアは出てこない。相談された側は、何に対してアイデアをだせばいいかわからないから。
-そういったことになるのは、相談する側がその問題に対して考えずに悩んでいるということがあるのだと思う。「〜っていう問題があるんだけど、どうすればいいかな」とかそういうのは悩んでるってこと。
-「〜っていう問題があって〜という解決案を考えたんだけど、どうかな？」というように、良くなくてもいいので一度解決案を提示して相談すると何に困っているかわかりやすいし、話がそれにくいんじゃないかな。
-答えは自分が出す あと、研究に対して誰か（主に指導教員やできる人）が答えを持っていると思っている人がいる。
-答えがあると思っていると、自分のアイデアに自身をもてなかったり、アイデアを出してもらっても納得できないという状態に陥ることがあるようにみえる。例えば、指導教員が出した案は、「たしかにそうかもしれない。」というように納得できるが、同じレベルの学生だと「いやそれは違う気がする。」というような反応になるということがあるように感じる。
-答えは自分が出すものだと割り切り、みんなのアイデアをちゃんと聞いて、あとで自分で考えて答えをだすということが良いのだろうな。
-答えがどこかにあると思っているのは、アイデア出しだけじゃなく、研究者、社会人としても良くないので考え方を変える必要がある。しかし、これは受験勉強のようなことを小さいころからやってきた我々には結構むずかしい。僕自身もこれは常に気をつけたい。</description>
     </item>
     
   </channel>

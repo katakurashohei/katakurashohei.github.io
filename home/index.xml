@@ -18,9 +18,9 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>http://katakurashohei.me/home/about/</guid>
-      <description>Shohei Katakura(片倉翔平) is a a Ph.D candidate in Hasso Plattner Institute in University of Potsdam, with Prof. Patrick Baudisch.
+      <description>Shohei Katakura(片倉翔平) is a a Ph.D candidate in Hasso Plattner Institute, with Prof. Patrick Baudisch.
 His research fields are mainly human-computer interaction (HCI) and personal fabrication. In particular, he is interested in repurposing things that we already have or use in daily life in order to create functional objects and physical experience.
- (function(d) { var config = { kitId: &#39;bbq8ewr&#39;, scriptTimeout: 3000, async: true }, h=d.</description>
+ (function(d) { var config = { kitId: &#39;bbq8ewr&#39;, scriptTimeout: 3000, async: true }, h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,&#34;&#34;)+&#34; wf-inactive&#34;;},config.scriptTimeout),tk=d.createElement(&#34;script&#34;),f=false,s=d.getElementsByTagName(&#34;script&#34;)[0],a;h.className+=&#34; wf-loading&#34;;tk.src=&#39;https://use.typekit.net/&#39;+config.kitId+&#39;.js&#39;;tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&amp;&amp;a!=&#34;complete&#34;&amp;&amp;a!=&#34;loaded&#34;)return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s) })(document);  </description>
     </item>
     
     <item>

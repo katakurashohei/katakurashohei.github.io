@@ -18,7 +18,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>http://katakurashohei.me/home/about/</guid>
-      <description>Shohei Katakura(片倉翔平) is a Master’s student at Graduate School of Advanced Mathematical Sciences, Meiji University, advised by Prof. Keita Watanabe.
+      <description>Shohei Katakura(片倉翔平) is a a Ph.D candidate in Hasso Plattner Institute in University of Potsdam, with Prof. Patrick Baudisch.
 His research fields are mainly human-computer interaction (HCI) and personal fabrication. In particular, he is interested in repurposing things that we already have or use in daily life in order to create functional objects and physical experience.
  (function(d) { var config = { kitId: &#39;bbq8ewr&#39;, scriptTimeout: 3000, async: true }, h=d.</description>
     </item>
@@ -35,7 +35,7 @@ His research fields are mainly human-computer interaction (HCI) and personal fab
     <item>
       <title>Selected Publications</title>
       <link>http://katakurashohei.me/home/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0900</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>http://katakurashohei.me/home/publications_selected/</guid>
       <description></description>
@@ -44,7 +44,7 @@ His research fields are mainly human-computer interaction (HCI) and personal fab
     <item>
       <title>Publications</title>
       <link>http://katakurashohei.me/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0900</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>http://katakurashohei.me/home/publications/</guid>
       <description></description>
@@ -72,7 +72,7 @@ To remove this section, either delete content/home/teaching.md or edit the front
     <item>
       <title>Tags</title>
       <link>http://katakurashohei.me/home/tags/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 +0900</pubDate>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0200</pubDate>
       
       <guid>http://katakurashohei.me/home/tags/</guid>
       <description></description>

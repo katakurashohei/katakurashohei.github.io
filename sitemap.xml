@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>http://katakurashohei.me/project/3dprinter_as_robot/</loc>
+      <lastmod>2019-08-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://katakurashohei.me/post/idea/</loc>
       <lastmod>2019-04-10T00:00:00+02:00</lastmod>
     </url>
@@ -14,7 +23,7 @@
     
     <url>
     
-      <loc>http://katakurashohei.me/project/printmotion/</loc>
+      <loc>http://katakurashohei.me/draft/printmotion/</loc>
       <lastmod>2018-10-25T00:00:00+00:00</lastmod>
     </url>
     
@@ -23,7 +32,7 @@
     
     <url>
     
-      <loc>http://katakurashohei.me/project/protohole/</loc>
+      <loc>http://katakurashohei.me/draft/protohole/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -95,7 +104,7 @@
     
     <url>
     
-      <loc>http://katakurashohei.me/project/exui/</loc>
+      <loc>http://katakurashohei.me/draft/exui/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -104,7 +113,7 @@
     
     <url>
     
-      <loc>http://katakurashohei.me/project/presendbox/</loc>
+      <loc>http://katakurashohei.me/draft/presendbox/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -143,6 +152,16 @@
     <url>
     
       <loc>http://katakurashohei.me/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://katakurashohei.me/draft/</loc>
+      <lastmod>2018-10-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

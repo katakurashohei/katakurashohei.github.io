@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drafts on 片倉 翔平 | Shohei Katakura</title>
+    <link>http://katakurashohei.me/draft/</link>
+    <description>Recent content in Drafts on 片倉 翔平 | Shohei Katakura</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Thu, 25 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://katakurashohei.me/draft/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PrintMotion</title>
+      <link>http://katakurashohei.me/draft/printmotion/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://katakurashohei.me/draft/printmotion/</guid>
+      <description>We introduce a novel use for desktop 3D printers using actua- tors equipped in the printers. The actuators control an extruder and a build-plate mounted on a fused deposition modeling (FDM) 3D printer, moving them horizontally or vertically. Our technique enables actuation of 3D-printed objects on the build-plate by controlling the actuators, and people can inter- act with them by connecting interface devices to the 3D printer. In this work, we describe how to actuate printed objects using the actuators and present several objects illustrated by our technique.</description>
+    </item>
+    
+    <item>
+      <title>ProtoHole</title>
+      <link>http://katakurashohei.me/draft/protohole/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://katakurashohei.me/draft/protohole/</guid>
+      <description>A prototype process of a physical user interface includes not only connection of electronic parts and an enclosure design, but also the arrangement and configuration of the electronic parts in the enclosure. This process is complicated and difficult for people who do not have modeling skills. We propose ProtoHole, a technique for adding interactivity to 3D printed objects by creating holes in the surface. By emitting a high-frequency sweep signal inside the object, and classifying changes in resonance properties when closing holes using machine learning algorithms, an object can be easily made interactive.</description>
+    </item>
+    
+    <item>
+      <title>exUI Project</title>
+      <link>http://katakurashohei.me/draft/exui/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://katakurashohei.me/draft/exui/</guid>
+      <description>A product design method that designs all the user interface (UI) to operate on a smartphone and separates it from the hardware. The device has a built-in NFC tag and displays the UI on the smartphone by touching with a smartphone. Everyone has a smartphone today. In ExUI design method, since the product has only the function and the UI is externalized on the smartphone, the product can be personalized and customized.</description>
+    </item>
+    
+    <item>
+      <title>presendBox</title>
+      <link>http://katakurashohei.me/draft/presendbox/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://katakurashohei.me/draft/presendbox/</guid>
+      <description>presendBox is a box that can receive messages by opening it. This gives the feeling of &amp;ldquo;it was already there&amp;rdquo; and excitement to digital messages.
+「presendBox」は画面の中にディスプレイを閉じ込め、その中にメッセージを送信し、開けることによってメッセージを受け取る箱です。スマホなどではメッセージは、常に画面に表示されているわけではなく、アプリを終了した時やロックをかけたとき、突然消えるため手紙のような保持感を感じることはできません。しかし箱のなかに閉じ込めることによって、”すでにそこにあった”という持続を感じさせることができます。それによってメッセージの価値を高まると考えます。
+ </description>
+    </item>
+    
+  </channel>
+</rss>

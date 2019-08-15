@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>A 3D Printer Head as a Robotic Manipulator</title>
+      <link>http://katakurashohei.me/project/3dprinter_as_robot/</link>
+      <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://katakurashohei.me/project/3dprinter_as_robot/</guid>
+      <description>&lt;p&gt;We introduce new ways of using a 3D printer head as a 3-axis robotic manipulator to enable advanced fabrication and usage such as assembling separately printed parts, breaking support materials  and actuating printed objects on a build-plate. To achieve these manipulations, we customize a low-cost fused deposition modeling (FDM) 3D printer that can attach/detach printed end-effectors which change the function of the 3D printer head (e.g. grab, break, and rotate printed objects).
+These techniques afford the 3D printer to fabricate and assemble complete kinetic objects such as automatons without manual processing (i.e. removing support materials and assembling objects).
+We conclude that a small modification to a standard 3D printer, allows us to fabricate and assemble objects without human intervention.&lt;/p&gt;
+
+&lt;!-- &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/bK5AOpHN1pc&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt; --&gt;
+
+&lt;!-- ##### Publications
+
+- Shohei Katakura and Keita Watanabe. 2018. PrintMotion: Actuating Printed Objects Using Actuators Equipped in a 3D Printer. In The 31st Annual ACM Symposium on User Interface Software and Technology Adjunct Proceedings (UIST &#39;18 Adjunct). ACM, New York, NY, USA, 137-139. DOI: https://doi.org/10.1145/3266037.3271627 --&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Idea</title>
       <link>http://katakurashohei.me/post/idea/</link>
       <pubDate>Wed, 10 Apr 2019 00:00:00 +0200</pubDate>
@@ -21,10 +39,10 @@
     
     <item>
       <title>PrintMotion</title>
-      <link>http://katakurashohei.me/project/printmotion/</link>
+      <link>http://katakurashohei.me/draft/printmotion/</link>
       <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://katakurashohei.me/project/printmotion/</guid>
+      <guid>http://katakurashohei.me/draft/printmotion/</guid>
       <description>
 
 &lt;p&gt;We introduce a novel use for desktop 3D printers using actua- tors equipped in the printers. The actuators control an extruder and a build-plate mounted on a fused deposition modeling (FDM) 3D printer, moving them horizontally or vertically. Our technique enables actuation of 3D-printed objects on the build-plate by controlling the actuators, and people can inter- act with them by connecting interface devices to the 3D printer. In this work, we describe how to actuate printed objects using the actuators and present several objects illustrated by our technique.&lt;/p&gt;
@@ -41,10 +59,10 @@
     
     <item>
       <title>ProtoHole</title>
-      <link>http://katakurashohei.me/project/protohole/</link>
+      <link>http://katakurashohei.me/draft/protohole/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://katakurashohei.me/project/protohole/</guid>
+      <guid>http://katakurashohei.me/draft/protohole/</guid>
       <description>
 
 &lt;p&gt;A prototype process of a physical user interface includes not only connection of electronic parts and an enclosure design, but also the arrangement and configuration of the electronic parts in the enclosure. This process is complicated and difficult for people who do not have modeling skills. We propose ProtoHole, a technique for adding interactivity to 3D printed objects by creating holes in the surface. By emitting a high-frequency sweep signal inside the object, and classifying changes in resonance properties when closing holes using machine learning algorithms, an object can be easily made interactive. By designing an arrangement of holes on the surface of the object and using a swept-frequency acoustic sensing, it is possible to create prototype of interactive objects and physical user interfaces without considering an arrangement of internal electronic parts and wiring.&lt;/p&gt;
@@ -161,10 +179,10 @@
     
     <item>
       <title>exUI Project</title>
-      <link>http://katakurashohei.me/project/exui/</link>
+      <link>http://katakurashohei.me/draft/exui/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://katakurashohei.me/project/exui/</guid>
+      <guid>http://katakurashohei.me/draft/exui/</guid>
       <description>
 
 &lt;p&gt;A product design method that designs all the user interface (UI) to operate on a smartphone and separates it from the hardware.
@@ -187,10 +205,10 @@ Everyone has a smartphone today. In ExUI design method, since the product has on
     
     <item>
       <title>presendBox</title>
-      <link>http://katakurashohei.me/project/presendbox/</link>
+      <link>http://katakurashohei.me/draft/presendbox/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://katakurashohei.me/project/presendbox/</guid>
+      <guid>http://katakurashohei.me/draft/presendbox/</guid>
       <description>&lt;p&gt;presendBox is a box that can receive messages by opening it. This gives the feeling of &amp;ldquo;it was already there&amp;rdquo; and excitement to digital messages.&lt;/p&gt;
 
 &lt;p&gt;「presendBox」は画面の中にディスプレイを閉じ込め、その中にメッセージを送信し、開けることによってメッセージを受け取る箱です。スマホなどではメッセージは、常に画面に表示されているわけではなく、アプリを終了した時やロックをかけたとき、突然消えるため手紙のような保持感を感じることはできません。しかし箱のなかに閉じ込めることによって、”すでにそこにあった”という持続を感じさせることができます。それによってメッセージの価値を高まると考えます。&lt;/p&gt;

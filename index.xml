@@ -16,9 +16,14 @@
       <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>http://katakurashohei.me/project/3dprinter_as_robot/</guid>
-      <description>&lt;p&gt;We introduce new ways of using a 3D printer head as a 3-axis robotic manipulator to enable advanced fabrication and usage such as assembling separately printed parts, breaking support materials  and actuating printed objects on a build-plate. To achieve these manipulations, we customize a low-cost fused deposition modeling (FDM) 3D printer that can attach/detach printed end-effectors which change the function of the 3D printer head (e.g. grab, break, and rotate printed objects).
+      <description>&lt;p&gt;&lt;iframe style=&#34;overflow&#34; width=&#34;100%&#34; height=&#34;500&#34; src=&#34;https://www.youtube.com/embed/KdNfX_TPKIg&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;We introduce new ways of using a 3D printer head as a 3-axis robotic manipulator to enable advanced fabrication and usage such as assembling separately printed parts, breaking support materials  and actuating printed objects on a build-plate. To achieve these manipulations, we customize a low-cost fused deposition modeling (FDM) 3D printer that can attach/detach printed end-effectors which change the function of the 3D printer head (e.g. grab, break, and rotate printed objects).
 These techniques afford the 3D printer to fabricate and assemble complete kinetic objects such as automatons without manual processing (i.e. removing support materials and assembling objects).
 We conclude that a small modification to a standard 3D printer, allows us to fabricate and assemble objects without human intervention.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+Shohei Katakura, Yuto Kuroki, and Keita Watanabe. 2019. A 3D Printer Head as a Robotic Manipulator. In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (UIST &amp;lsquo;19). ACM, New York, NY, USA, 535-548. DOI: &lt;a href=&#34;https://doi.org/10.1145/3332165.3347885&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1145/3332165.3347885&lt;/a&gt;&lt;/p&gt;
 
 &lt;!-- &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/bK5AOpHN1pc&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt; --&gt;
 

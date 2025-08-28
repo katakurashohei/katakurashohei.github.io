@@ -47,7 +47,37 @@
 
 
 
+<!-- one project -->
+<tr onmouseout="dreamfusion_stop()" onmouseover="dreamfusion_start()"  bgcolor="#ffffff">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='dreamfusion_image'><video  width=100% height=100% muted autoplay loop>
+      <source src="" type="video/mp4">
+      Your browser does not support the video tag.
+      </video></div>
+      <img src='images/mallet.png' width="160">
+    </div>
+    <script type="text/javascript">
+      function dreamfusion_start() {
+        document.getElementById('dreamfusion_image').style.opacity = "1";
+      }
 
+      function dreamfusion_stop() {
+        document.getElementById('dreamfusion_image').style.opacity = "0";
+      }
+      dreamfusion_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <a href="">
+      <papertitle>Mallet-Based Assembly: Enabling Load-Bearing Laser-Cut Models
+</papertitle>
+    </a>
+    <br>
+    <strong>Shohei Katakura</strong>,Chiao Fang, Mehdi Gouasmi, Lino Hellige, Yoan Tchorenev, David Bizer, Conrad Lempert, Martin Taraz, Muhammad Abdullah, and Patrick Baudisch <em>UIST2025(full paper) </em>
+      </td>
+</tr>
+<!-- one project -->
 
 
 

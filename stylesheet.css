@@ -80,28 +80,28 @@ th,
 tr,
 p,
 a {
-  font-family:  Helvetica, sans-serif;
-  font-size: 14px
+  font-family:  Verdana,"Noto Sans JP", sans-serif;
+  font-size: 13px
 }
 
 strong {
-  font-family: Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: Verdana,"Noto Sans JP", sans-serif;
+  font-size: 13px;
 }
 
 heading {
-  font-family: Helvetica, sans-serif;
+  font-family: Verdana,"Noto Sans JP", sans-serif;
   font-size: 22px;
 }
 
 papertitle {
-  font-family: Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: Verdana,"Noto Sans JP", sans-serif;
+  font-size: 13px;
   font-weight: 700
 }
 
 name {
-  font-family: Helvetica, sans-serif;
+  font-family: Verdana,"Noto Sans JP", sans-serif;
   font-size: 32px;
 }
 

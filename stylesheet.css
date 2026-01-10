@@ -81,7 +81,7 @@ tr,
 p,
 a {
   font-family:  Verdana,"Noto Sans JP", sans-serif;
-  font-size: 13px
+  font-size: 13px;
 }
 
 strong {
@@ -97,7 +97,7 @@ heading {
 papertitle {
   font-family: Verdana,"Noto Sans JP", sans-serif;
   font-size: 13px;
-  font-weight: 700
+  font-weight: 700;
 }
 
 name {
@@ -105,11 +105,11 @@ name {
   font-size: 32px;
 }
 
-.one {
-  width: 160px;
-  height: 160px;
-  position: relative;
-}
+/*.one {*/
+/*  width: 160px;*/
+/*  height: 160px;*/
+/*  position: relative;*/
+/*}*/
 
 .two {
   width: 160px;
@@ -128,4 +128,49 @@ name {
 
 span.highlight {
   background-color: #ffffd0;
+}
+
+.one {
+  width: 100%;
+}
+
+.one img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Default (desktop) */
+.paperImage {
+  width: 25%;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.paperText {
+  width: 75%;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+
+
+/* Mobile */
+@media (max-width: 600px) {
+  .paperImage {
+    width: 35%;
+  }
+  .paperText {
+    width: 65%;
+  }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+  .paperImage {
+    width: 40%;
+  }
+  .paperText {
+    width: 60%;
+  }
 }

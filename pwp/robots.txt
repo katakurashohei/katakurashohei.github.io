@@ -1,2 +1,0 @@
-User-Agent: *
-Sitemap: https://katkaurashohei.me/pwp/sitemap.xml

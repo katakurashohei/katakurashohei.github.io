@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/i/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=i/livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>coding | shohei katakura</title>
+<meta name="title" content="coding" />
+<meta name="description" content="
+Hilbert curve
+" />
+<meta name="keywords" content="" />
+
+
+<meta property="og:url" content="http://localhost:1313/i/coding/">
+  <meta property="og:site_name" content="shohei katakura">
+  <meta property="og:title" content="coding">
+  <meta property="og:description" content="Hilbert curve">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="og:image" content="http://localhost:1313/i/images/share.png">
+
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/i/images/share.png">
+  <meta name="twitter:title" content="coding">
+  <meta name="twitter:description" content="Hilbert curve">
+
+
+
+
+  <meta itemprop="name" content="coding">
+  <meta itemprop="description" content="Hilbert curve">
+  <meta itemprop="wordCount" content="2">
+  <meta itemprop="image" content="http://localhost:1313/i/images/share.png">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 580px;
+    --font-main: Verdana,"Noto Sans JP", sans-serif;
+    --font-secondary: Verdana,"Noto Sans JP", sans-serif;
+    --font-scale: 13px;
+    --background-color: #fff;
+    --heading-color: #000;
+    --text-color: #000;
+    --link-color: #af7300;
+    --visited-color: #888888;
+    --code-background-color: #f2f2f2;
+    --code-color: #222;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --code-background-color: #000;
+      --code-color: #ddd;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+     
+  }
+
+  hr {
+    overflow: visible;  
+    padding: 0;
+    border: none;
+     
+    color: #000;
+    text-align: center;
+}
+hr:after {
+    content: "* * *";
+    display: inline-block;
+    position: relative;
+     
+    font-size: 0.9em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    counter-reset: none;
+  }
+
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--code-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    font-size: 0.8em;
+    color: #ddd;
+    padding: 25px 0;
+    text-align: left;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.4em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+
+  .highlight,
+  .code {
+    font-family: 'Inconsolata';
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+  ul {
+  padding-left: 15px;
+  list-style-type: disc;
+  list-style-position: outside;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: 0px;
+    padding-inline-start: 0px;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+  a:visited {
+    color: var(--visited-color);
+  }
+
+  nav a:visited {
+    color: var(--link-color);
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header>
+<nav>
+<a href="/i/">home</a>
+
+<a href="/i/blog/">blog</a>
+
+<a href="/i/essay/">essay</a>
+
+<a href="/i/coding/">coding</a>
+
+|
+
+<a href="/i/tool/">tool</a>
+
+<a href="/i/book/">bookshelf</a>
+
+|
+<a href="https://katakurashohei.me/">academic</a>
+<a href="https://flickr.com/photos/204059274@N06/albums">photos</a>
+</nav>
+
+<p>shohei katakura | 片倉 翔平</p></header>
+  <main>
+
+<content>
+  <ul>
+<li><a href="/i/hilbert-curve/">Hilbert curve</a></li>
+</ul>
+
+</content>
+<p>
+  
+</p>
+
+  </main>
+  <footer>© 2025 Shohei Katakura
+
+
+</footer>
+
+  
+
+</body>
+
+</html>

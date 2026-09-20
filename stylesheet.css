@@ -93,6 +93,12 @@ strong {
   font-size: 13px;
 }
 
+nav {
+  font-family: Verdana,"Noto Sans JP", sans-serif;
+  font-size: 13px;
+  text-align: left;
+}
+
 heading {
   font-family: Verdana,"Noto Sans JP", sans-serif;
   font-size: 22px;
@@ -177,4 +183,11 @@ span.highlight {
   .paperText {
     width: 60%;
   }
+}
+
+nav {
+  /* background-color: #fbf1c7; */
+  /* background-color: #F2F2F2; */
+  background-color: #f6f6ef;
+  padding: 6px 8px;
 }

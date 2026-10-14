@@ -150,38 +150,51 @@ span.highlight {
   display: block;
 }
 
-/* Default (desktop) */
+/* Publications: image on the left, title + details on the right */
+.paper {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  grid-template-areas:
+    "image title"
+    "image meta";
+  column-gap: 40px;
+  padding: 20px;
+}
+
 .paperImage {
-  width: 25%;
-  padding: 10px;
-  vertical-align: middle;
+  grid-area: image;
+  align-self: center;
 }
 
-.paperText {
-  width: 75%;
-  padding: 10px;
-  vertical-align: middle;
+.paperImage img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
+.paperTitle {
+  grid-area: title;
+  align-self: end;
+}
 
+.paperMeta {
+  grid-area: meta;
+  align-self: start;
+}
 
-/* Mobile */
+/* Phone: image and title share the first row, authors and links go below */
 @media (max-width: 600px) {
-  .paperImage {
-    width: 35%;
+  .paper {
+    grid-template-columns: 35% 1fr;
+    grid-template-areas:
+      "image title"
+      "meta  meta";
+    column-gap: 16px;
+    row-gap: 10px;
+    padding: 16px 20px;
   }
-  .paperText {
-    width: 65%;
-  }
-}
-
-/* Very small screens */
-@media (max-width: 480px) {
-  .paperImage {
-    width: 40%;
-  }
-  .paperText {
-    width: 60%;
+  .paperTitle {
+    align-self: center;
   }
 }
 
@@ -190,4 +203,52 @@ nav {
   /* background-color: #F2F2F2; */
   background-color: #f6f6ef;
   padding: 6px 8px;
+}
+
+/* Intro: name + bio on the left, photo on the right */
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 33.7%;
+  grid-template-areas:
+    "name photo"
+    "bio  photo";
+  column-gap: 40px;
+  padding: 20px;
+}
+
+.introName {
+  grid-area: name;
+  align-self: end;
+  padding-top: 13px;
+}
+
+.introPhoto {
+  grid-area: photo;
+  align-self: center;
+}
+
+.introPhoto img {
+  display: block;
+}
+
+.introBio {
+  grid-area: bio;
+  align-self: start;
+}
+
+/* Phone: name and photo share the first row, bio takes the full width below */
+@media (max-width: 600px) {
+  .intro {
+    grid-template-areas:
+      "name photo"
+      "bio  bio";
+    column-gap: 20px;
+  }
+  .introName {
+    align-self: center;
+    padding-top: 0;
+  }
+  name {
+    font-size: 24px;
+  }
 }

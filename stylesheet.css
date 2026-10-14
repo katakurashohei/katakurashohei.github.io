@@ -175,6 +175,7 @@ span.highlight {
 .paperTitle {
   grid-area: title;
   align-self: end;
+  margin-bottom: 8px;
 }
 
 .paperMeta {
@@ -251,4 +252,11 @@ nav {
   name {
     font-size: 24px;
   }
+}
+
+.linkIcon {
+  height: 16px;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 3px;
 }

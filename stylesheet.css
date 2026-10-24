@@ -260,3 +260,8 @@ nav {
   vertical-align: middle;
   margin-right: 3px;
 }
+
+mark {
+  background-color: #fbf1c7;
+  color: black;
+}

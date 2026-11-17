@@ -206,49 +206,26 @@ nav {
   padding: 6px 8px;
 }
 
-/* Intro: name + bio on the left, photo on the right */
+/* Intro: full-width photo on top, then name and bio */
 .intro {
-  display: grid;
-  grid-template-columns: 1fr 33.7%;
-  grid-template-areas:
-    "name photo"
-    "bio  photo";
-  column-gap: 40px;
   padding: 20px;
-}
-
-.introName {
-  grid-area: name;
-  align-self: end;
-  padding-top: 13px;
-}
-
-.introPhoto {
-  grid-area: photo;
-  align-self: center;
 }
 
 .introPhoto img {
   display: block;
 }
 
-.introBio {
-  grid-area: bio;
-  align-self: start;
+.introName {
+  padding-top: 20px;
 }
 
-/* Phone: name and photo share the first row, bio takes the full width below */
+/* Keep each half of the name on one line */
+.nowrap {
+  white-space: nowrap;
+}
+
+/* Phone: slightly smaller name */
 @media (max-width: 600px) {
-  .intro {
-    grid-template-areas:
-      "name photo"
-      "bio  bio";
-    column-gap: 20px;
-  }
-  .introName {
-    align-self: center;
-    padding-top: 0;
-  }
   name {
     font-size: 24px;
   }
